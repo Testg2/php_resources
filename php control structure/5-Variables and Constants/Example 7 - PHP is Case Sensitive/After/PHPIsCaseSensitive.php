@@ -5,7 +5,7 @@
     Echo 'Hello World';
 
     PRINT 'HELLO';
-
+    print "hello";
 
     //Variable are case sensitive
     $name = "PHP!";
