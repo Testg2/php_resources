@@ -1,5 +1,23 @@
 <?php
 
+
+function test() {
+    $val2 = 1;
+    echo $val2;
+
+    $val2 = $val2 + 1;
+
+}
+
+test();
+test();
+test();
+test();
+test();
+
+// another example //static keyword store current value 
+// we just have to use static before the variable we can also  perform the operations
+
 global $val;
 
 static $val = 1;
@@ -17,22 +35,3 @@ val();
 val();
 val();
 val();
-
-
-
-// another example //static keyword store current value 
-// we just have to use static before the variable we can also  perform the operations
-
-function test() {
-    static $val2 = 1;
-    echo $val2;
-
-    $val2 = $val2 + 1;
-
-}
-
-test();
-test();
-test();
-test();
-test();
