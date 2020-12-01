@@ -13,3 +13,9 @@
     $pre = $name2;
 
     echo isset($pre) ? "display  " . $pre : "variable is not set";
+
+
+    $test = null;
+    echo $test;
+
+    echo isset($test) ? "good" : "bad";

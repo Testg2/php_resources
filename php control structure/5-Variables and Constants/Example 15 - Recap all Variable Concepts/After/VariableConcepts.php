@@ -1,5 +1,5 @@
 <?php
-
+/*
     //Define a Variable
     $name = "John, Smith";
 
@@ -36,10 +36,11 @@
     $count = 1;
     function show_global_counter() {
         $count = 2;
-        echo $count . "<br>";
+        echo $count;
+        // echo $count . "<br>";
     }
+    echo $count;
     show_global_counter();
-    echo $count . "<br>";
 
     //Static Variable
     function counter_static()
@@ -51,13 +52,23 @@
     counter_static();
 
     //Predefined Variables
+    $test = 5;
     function print_global_variable() {
-        echo $GLOBALS['count'];
+        echo $GLOBALS['test'];
     }
+    print_global_variable();
 
     //Variable of Variables
-    $countofcount = "count";
-    echo $$countofcount;
 
+    $t = "kishan";
+    $bro = $t;
+    $test2 = 500;
+    $countofcount = "bro";
+    echo $$countofcount;
+    echo $$$countofcount;
+    
+*/
     //isset()
+    $$countofcount = 1;
     echo isset ($$countofcount) ? "Variable is set": "Variable is not set";
+    echo isset($countofcount) ? "set " : " not set";
