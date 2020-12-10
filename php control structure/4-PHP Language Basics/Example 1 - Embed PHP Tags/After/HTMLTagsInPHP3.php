@@ -23,7 +23,7 @@
 
     <!-- Sample 3 -->
     <!-- <p style="color:#FF0000";>This is a red text!</p> -->
-    <p <?='style="color:#FF0000;"'?> >Sample 3: This is a red text!</p>
+    <p <?='style="color:#000;"'?> >Sample 3: This is a red text!</p>
 
 
 </body>

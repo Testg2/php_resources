@@ -14,6 +14,6 @@ This program is to do the following things:
 <?php
 
     //About me
-    echo "I love PHP Web Programming!"
+    echo "I love PHP Web Programming!";
 
 ?>

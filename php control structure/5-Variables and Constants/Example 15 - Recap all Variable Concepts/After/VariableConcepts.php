@@ -1,5 +1,5 @@
 <?php
-/*
+
     //Define a Variable
     $name = "John, Smith";
 
@@ -67,7 +67,7 @@
     echo $$countofcount;
     echo $$$countofcount;
     
-*/
+
     //isset()
     $$countofcount = 1;
     echo isset ($$countofcount) ? "Variable is set": "Variable is not set";

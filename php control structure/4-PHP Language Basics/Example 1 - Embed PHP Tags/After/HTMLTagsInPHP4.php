@@ -24,7 +24,7 @@
 
     <!-- Sample 3 -->
     <!-- <p style="color:#FF0000";>This is a red text!</p> -->
-    <p <?='style="color:#FF0000;"'?> >Sample 3: This is a red text!</p>
+    <p <?='style="color:#000000;"'?> >Sample 3: This is a red text!</p>
 
     <!-- Sample 4 -->
     <?= "<p>" ?>

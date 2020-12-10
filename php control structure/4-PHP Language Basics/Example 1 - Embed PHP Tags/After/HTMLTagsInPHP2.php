@@ -17,7 +17,6 @@
         print "<p>Sample 1: This Text is printed from PHP!</p>";
     ?>
     <?= "<hr>" ?>
-
     <p>
         <?php
             echo "Sample 2: This Text is printed from PHP!";

@@ -1,9 +1,18 @@
 <?php
 
     //Define constant
-    //define( NAME, VALUE);
+    //define( NAME of the constant , VALUE of the constant);
 
-    //Sample 1
+    // CONSTANT SYNTAX
+    define("NAME", 'kishan');
+    echo NAME;
+    $name = NAME;
+
+    echo "name is $name";
+    echo "name is NAME";
+    echo "name is " . NAME . $name;
+
+    // Sample 1
     define( "LANGUAGE", "PHP");
     $lang = LANGUAGE;
     echo "This program is written using $lang <br>";
@@ -32,4 +41,5 @@
 
 
     //Access constants using the constants method.
+    
     echo constant('NAME');

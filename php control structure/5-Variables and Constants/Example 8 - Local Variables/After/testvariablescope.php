@@ -19,4 +19,4 @@ function two() {
 
 two();
 
-?>s
+?>

@@ -15,7 +15,12 @@
 		echo "<h1>About Me:</h1>";
 		echo $aboutme; //Printing the Variable
 
-		echo $firstname . " ". $lastname;
+		echo $firstname . " " . $lastname;
+
+		//abc
+		$name = "hellowordl";
+		echo "$name";
+		echo $name;
 
 	
 		$firstnames = "string variable";

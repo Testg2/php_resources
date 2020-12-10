@@ -35,12 +35,14 @@
 	<!-- Sample 3 -->
 	<h1>Add Two Values</h1>
 	<?php
+	
 		$nn = "name";
 		$firstvalue = 10;
 		$secondvalue = 20;
 		$total = $firstvalue + $secondvalue;
 
 		echo "Total: " . $nn . " has" . $total;
+		
 	?>
 
 </body>

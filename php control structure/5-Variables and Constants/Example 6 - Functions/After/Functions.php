@@ -6,18 +6,19 @@
     function add() {
 
         //Function Body
+        echo "this is function one\n";
         $firstvalue = 10;
         $secondvalue = 20;
         $total = $firstvalue * $secondvalue;
 
         echo "Total: $total";
-
     }
 
     //Calling a Function
     add();
 
     function test() {
+        echo "this is function two";
         $a = 10;
         $b = 20;
         $c = $a + $b;
