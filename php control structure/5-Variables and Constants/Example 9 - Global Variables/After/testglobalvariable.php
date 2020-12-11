@@ -14,3 +14,11 @@ function test2() {
 echo $test2;
 
 test2();
+
+function hello(){
+    global $test2;
+    echo "war". $test2;
+
+}
+
+hello();

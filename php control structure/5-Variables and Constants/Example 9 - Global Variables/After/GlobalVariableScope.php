@@ -12,6 +12,7 @@
         //This variable dies after the function is finished.
         //$name in this function is called as Local Variable.
         $name = "PHP!";
+        // echo $name;
     }
 
     print_name();
@@ -25,6 +26,7 @@
     $message = "Welcome to PHP!";
     function print_message() {
         //Variable not defined error.
+        // global $message;
         echo $message;
     }
     print_message();

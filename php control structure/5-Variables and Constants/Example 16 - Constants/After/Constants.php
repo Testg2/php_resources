@@ -4,7 +4,7 @@
     //define( NAME of the constant , VALUE of the constant);
 
     // CONSTANT SYNTAX
-    define("NAME", 'kishan');
+    define("NAME", 'kishann');
     echo NAME;
     $name = NAME;
 

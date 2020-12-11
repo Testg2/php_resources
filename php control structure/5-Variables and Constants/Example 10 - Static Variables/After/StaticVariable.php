@@ -11,6 +11,8 @@
     counter();
     counter();
 
+
+
     echo "<hr>";
     echo "<h1>Static Variables</h1>";
 
