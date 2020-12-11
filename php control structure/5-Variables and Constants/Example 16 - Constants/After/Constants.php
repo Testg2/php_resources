@@ -35,8 +35,9 @@
     //echo 7VERSION;
 
     //Sample 5 - isset does not work and constant can be empty as well.
-    define ( "NAME", "");
-    //echo isset(NAME);
+    define ( "bhai", "a");
+    $bhai = bhai;
+    echo isset($bhai)? "yessss" . $bhai : "no";
     //echo NAME;
 
 

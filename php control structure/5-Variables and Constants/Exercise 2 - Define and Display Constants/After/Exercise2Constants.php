@@ -29,6 +29,8 @@
     <h2>Print Constant from Function:</h2>
 
     <h2>Display Magic Constant:</h2>
+    <?= __LINE__ ?>
+    <?= __FILE__ ?>
 
 </body>
 </html>
