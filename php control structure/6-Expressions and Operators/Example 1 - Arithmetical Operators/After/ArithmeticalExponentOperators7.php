@@ -65,3 +65,5 @@ $result = ($a ** 2) * ($b**2);
 //($a * $a) * ($b * $b)
 echo $result;
 
+$NA = ($a ** 2);
+echo $NA;

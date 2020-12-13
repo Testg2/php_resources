@@ -15,5 +15,9 @@
     //Use EQUAL TO (==) operator to check PHP version
     $php_version = 7.3;
     $php_system_version = PHP_MAJOR_VERSION . "." . PHP_MINOR_VERSION;
-    echo ($php_version == $php_system_version) ? "Version Matched" : "Version Does not Matched!";
-
+    
+    echo PHP_MAJOR_VERSION;
+    echo PHP_MINOR_VERSION;
+    echo $php_system_version;
+    echo ($php_version == $php_system_version) ? "Version Matched" : "Version Does not Matched!" . PHP_EOL ;
+    echo ($php_version == 7.3) ? "id Matched" : "id not Matched!";

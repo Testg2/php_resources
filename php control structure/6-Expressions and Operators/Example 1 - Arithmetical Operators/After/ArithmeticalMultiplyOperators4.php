@@ -32,7 +32,7 @@ echo "Difference between total and marks achieved: $totalDifference";
 //Sample 4
 //Calculate the area using length and breath
 $length = 10;
-$breath = 20;
+$breath = 10;
 $area = $length * $breath;
 echo $area;
 

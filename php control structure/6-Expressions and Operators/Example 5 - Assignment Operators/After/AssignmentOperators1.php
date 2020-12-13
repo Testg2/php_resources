@@ -27,3 +27,10 @@
     $name1 .= "Smith";
     echo $name1  . PHP_EOL;
 
+
+    $name = "kishan";
+    echo $name;
+
+    $name .= "panchal";
+
+    echo $name;

@@ -57,7 +57,7 @@
     //Check if student is not passed and print the results
     $total = 34;
     $passingMarks = 35;
-    $isPassed = ( $total >= $passingMarks ) ? true : false;
+    $isPassed = ( $total <= $passingMarks ) ? true : false;
 
-    echo ( !$isPassed ) ? "Not Passed" : "Passed";
+    echo ( !$isPassed ) ? "Passed" : "Not Passed" ;
     echo PHP_EOL;

@@ -44,10 +44,10 @@
     //Sample 3
     // Use /=
     $divideby2 = 50;
-    $divideby2 /= 2;
+    $divideby2 /= 5;
     echo $divideby2 . PHP_EOL;
 
     // Use %=
     $remainder = 50;
-    $remainder %= 2;
+    $remainder %= 25;
     echo $remainder . PHP_EOL;

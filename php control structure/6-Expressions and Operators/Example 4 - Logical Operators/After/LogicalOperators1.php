@@ -18,4 +18,9 @@
     echo ( $permission and $loggedin ) ? "Hello $user" : "Hello, Guest";
     echo PHP_EOL;
 
+    $a = true;
+    $b = true;
+
+    $v = ($a == $b) ? "match" : "not match";
+    echo $v;
 

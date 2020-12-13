@@ -23,9 +23,15 @@
     $counter += 1;
     echo $counter . PHP_EOL;
 
-    $name1 = "John";
+    $name1 = "kishan";
+    echo $name1  . PHP_EOL;
     $name1 .= ", ";
-    $name1 .= "Smith";
+    echo $name1  . PHP_EOL;
+    $name1 .= "kirti";
+    echo $name1  . PHP_EOL;
+    $name1 .= ", ";
+    echo $name1  . PHP_EOL;
+    $name1 .= "panchal";
     echo $name1  . PHP_EOL;
 
     //Sample 2
@@ -35,9 +41,12 @@
     echo $counter . PHP_EOL;
     $counter -= 1;
     echo $counter . PHP_EOL;
+    $counter -= 1;
+    echo $counter . PHP_EOL;
 
     // Use *= Operators
     $square = 10;
     $square *= $square;
     echo $square . PHP_EOL;
-
+    $square *= $square;
+    echo $square . PHP_EOL;
