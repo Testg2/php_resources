@@ -2,6 +2,7 @@
 
     /*
      *  = - Assignment Operator used to assign values
+     *  .= - joining operator
      *  += - Add Assignment Operator - .=
      *  -= - Subtract Assignment Operator
      *  *= - Multiple Assignment Operator
@@ -29,8 +30,12 @@
 
 
     $name = "kishan";
-    echo $name;
+    echo $name. PHP_EOL;
+
 
     $name .= "panchal";
+    echo $name. PHP_EOL;
+    
+    $name .= "kishan";
 
-    echo $name;
+    echo $name. PHP_EOL;

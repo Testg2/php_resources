@@ -8,7 +8,10 @@
 
     // Use ++ Increment
     $counter = 10;
+    echo $counter . PHP_EOL;
     $counter += 1;
+    echo $counter . PHP_EOL;
+    $counter += 2;
     echo $counter . PHP_EOL;
 
     //Post Increment

@@ -33,6 +33,7 @@
 
     //For Windows, depends on 32 bits or 64 bits.
     echo PHP_INT_MAX . PHP_EOL;
+    echo PHP_INT_SIZE . PHP_EOL;
 
 
 

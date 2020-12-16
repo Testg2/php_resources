@@ -13,6 +13,7 @@
     <?php
         $number = 10;
         echo --$number;
+        echo --$number;
     ?>
 
     <h2>Show the negative of 5 using Bitwise Operator:</h2>
@@ -24,12 +25,13 @@
     <h2>Execute a dos or linux command using Execution Operator:</h2>
     <?php
         echo `dir`;
+        echo `ls`;
     ?>
 
     <h2>Raise the Error and suppress it using Execution Operators:</h2>
     <?php
         @$error = 1/0;
-        echo 'Like Nothing Happened!';
+        echo 'Like Nothing Happened!' . $php_errormsg;
     ?>
 
 
