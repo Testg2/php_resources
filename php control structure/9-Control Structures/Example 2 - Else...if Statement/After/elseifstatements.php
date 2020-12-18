@@ -2,7 +2,7 @@
 
     //1) Check for Odd or Even Numbers and Print it.
     // Using 'else if'
-    $input_number = 10;
+    $input_number = 1;
     $result = $input_number % 2;
     if( $result ){
         echo 'Odd Number' . PHP_EOL;
@@ -28,4 +28,15 @@
         echo 'Number equal than 10' . PHP_EOL;
     } else {
         echo 'Number less than 10' . PHP_EOL;
+    }
+
+
+    $name = "kishan";
+    // $name = null;
+    if($name) {
+        echo "fullname is" . $name;
+    } elseif(is_null($name)) {
+        echo "value is null";
+    } else {
+        echo "sothing wrong";
     }
